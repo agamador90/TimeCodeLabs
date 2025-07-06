@@ -9,6 +9,7 @@ print(f"1. Catfish Poboy: ${CATFISH}")
 print(f"2. Roast Beef Poboy: ${ROASTBEEF}")
 print(f"3. Sausage Poboy: ${SAUSAGE}")
 print(f"4. Gumbo Poboy: ${GUMBO}")
+print("-------------------------------------")
 item = int(input("What would you like to order? Type the appropiate number of the menu item:"))
 
 total = 0
