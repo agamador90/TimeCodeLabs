@@ -39,7 +39,7 @@ max = averages[0]
 total = 0
 sum_ave = 0
 # Write a loop here to access list values starting with averages[1]
-for i in range(len(averages)):
+for i in range(len(averages)): #I also tried starting at index in [1] like this: for i in range(1,len(averages)):
      # Within the loop test for minimum and maximum batting averages.
  if averages[i] > max:
   max = averages[i]
